@@ -49,6 +49,6 @@ if solution:
 
     # Save to CSV
     pd.DataFrame({"TSP_Route": route}).to_csv("outputs/tsp_route.csv", index=False)
-    print("✅ Optimized route saved to outputs/tsp_route.csv")
+    print("Optimized route saved to outputs/tsp_route.csv")
 else:
     print("No solution found.")
